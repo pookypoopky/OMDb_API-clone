@@ -54,6 +54,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "~/scss/main";
+
 .movie {
   $width: 200px;
   width: $width;
@@ -71,7 +73,7 @@ export default {
     bottom: 0;
     left:0;
     right: 0;
-    border:6px solid $primary;
+    border: 6px solid $primary;
   }
   .info {
     background-color: rgba($black, .3);
